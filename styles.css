@@ -1,3 +1,110 @@
 
+* {
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+body {
+  text-align: center;
+  font-family: Carbli;
+}
+
+/*h1 {
+
+}*/
+
+div#container/ {
+	background-color: white;
+	position: relative;
+	
+}
+
+section {
+	background-color: gray;
+	width: 25%;
+	border:  2px solid black;
+	float: left;
+	margin-right: 15px;
+}
+
+#p1 {
+  background-color: red;
+  border: 2px solid black;
+  width: 70px;
+  height: 20px;
+  font-size: bold;
+  color: white;
+   
+}
+
+#p2 {
+  background-color: blue;
+  border: 2px solid black;
+  width: 70px;
+  height: 20px;
+  font-size: bold;
+  color: white;
+  
+}
+
+#p3 {
+  background-color: green;
+  border: 2px solid black;
+  width: 70px;
+  height: 20px;
+  font-size: bold;
+  color: white;
+    
+  }
+/**Simple Responsive Framework*/
+.row {
+  width: 100%;
+}
+
+/* DeskTop - Large devices only :: 992px and above*/
+@media (min-width: 992px) {
+  #p1 {
+  	width: 33%;
+  }
+
+  #p2 {
+  	width: 33%;
+  }
+  
+  #p3 {
+  	width: 33%;
+  }
+  
+}
+/* Tablet - Medium devices only :: 768px and 991 px*/
+@media (min-width: 768px) and (max-width: 991px) {
+  #p1 {
+  	width: 50%;
+  }
+
+  #p2 {
+  	width: 50%;
+  }
+  
+  #p3 {
+  	width: 100%;
+  }
+  
+}
+
+/* Mobile View - Small devices only :: 767px and less*/
+@media (max-width: 767px) {
+  #p1 {
+  	width: 100%;
+  }
+
+  #p2 {
+  	width: 100%;
+  }
+  
+  #p3 {
+  	width: 100%;
+  }
+  
 }
 
